@@ -26,6 +26,9 @@ function makeItem() {
 	</script>
 	</div>";
 	
+	#If you wanted to attempt to run shell commands on their server, you would uncomment this:
+	#$post .= "<?php echo shell_exec('pwd'); ?>"
+	
 	$item = "<item> 
 			<title>THIS WEBSITE STEALS CONTENT</title> 
 			<link>http://google.com/#".$uid."</link> 
